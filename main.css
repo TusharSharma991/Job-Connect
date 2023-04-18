@@ -1,15 +1,11 @@
-body
-{
-    padding: 2rem;
-}
+
 
 
 .nav
 {
  background-color: #ED2B2A;
- position: fixed;
- width: 98%;
  border-radius: 50px;
+ margin: 20px;
 }
 .logo-img
 {
@@ -39,7 +35,6 @@ body
 .about
 {
     padding: 40px;
-    padding-top: 150px;
     display: flex;
 }
 
@@ -110,7 +105,10 @@ body
 
 
 
-
+.interview-ques
+{
+    margin: 30px;
+}
 
 .ques
 {
@@ -123,7 +121,6 @@ body
 {
     flex: 50%;
     background-color: #ED2B2A;
-    height: 200px;
     border-radius: 25px;
     margin: 10px;
     text-align: left;
@@ -234,4 +231,77 @@ body
 {
     background-color: #ED2B2A;
     text-align: center;
+}
+
+
+
+@media screen and (max-width: 430px) {
+    
+    
+    .nav
+    {
+        
+        margin: 10px 10px;
+    }
+   
+    .logo-img
+    {
+        float: right;
+    }
+
+    .logo-text
+    {
+        
+        padding: 10px;
+    }
+
+    .job-connect
+    {
+        font-size: 2.5rem;
+        padding: 10px 30px 10px 40px;
+    }
+
+    .about{
+        padding: 10px 20px ;
+        display: grid;
+    }
+
+    .job-img
+    {
+        padding-left: 20px;
+    }
+
+    .ques
+    {
+        display: inline;
+    }
+
+    .ques-box
+    {
+        margin: 20px 5px 20px 5px;
+    }
+
+    .link-box
+    {
+        margin: 40px;
+       padding-top: 40px;
+    }
+
+    .link
+    {
+        margin: 15px 0px 15px 0px;
+        
+    }
+
+    .links-head
+    {
+        padding-bottom: 20px;
+    }
+
+    .link-load-more
+    {
+        margin: 0px;
+        border-radius: 0px;
+        margin-top: 60px;
+    }
 }
