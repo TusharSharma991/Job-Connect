@@ -1,0 +1,237 @@
+body
+{
+    padding: 2rem;
+}
+
+
+.nav
+{
+ background-color: #ED2B2A;
+ position: fixed;
+ width: 98%;
+ border-radius: 50px;
+}
+.logo-img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.logo
+{
+    float: left;
+}
+
+.logo-text
+{
+    float: right;
+    padding: 1.5rem;
+    color: white;
+    font-family: 'Righteous', cursive;
+    padding-right: 40px;
+}
+
+
+
+
+
+
+.about
+{
+    padding: 40px;
+    padding-top: 150px;
+    display: flex;
+}
+
+.about-inner
+{
+    flex: 50%;
+}
+
+.job-img
+{
+    width: 90%;
+    height: 90%;
+    padding: 60px 0px 0px 40px;
+}
+
+.about-text
+{
+    flex: 50%;
+}
+
+.div-head
+{
+    color: white;
+    font-family: 'Righteous', cursive;
+    padding: 1rem;
+}
+
+.about-para-div
+{
+    
+    border-color: #ED2B2A;
+    border-width: 4px;
+    border-radius: 25px;
+}
+
+.about-para
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: 'Alkatra', cursive;
+    font-size: medium;
+}
+
+
+
+.about-para-1
+{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white; 
+    font-family: 'Alkatra', cursive;
+    font-size: medium;
+}
+
+.about-para-n
+{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white; 
+    font-family: 'Alkatra', cursive;
+    font-size: medium;
+}
+
+
+
+
+
+
+
+.ques
+{
+    display: flex;
+    
+}
+
+
+.ques-box
+{
+    flex: 50%;
+    background-color: #ED2B2A;
+    height: 200px;
+    border-radius: 25px;
+    margin: 10px;
+    text-align: left;
+    padding: 20px;
+}
+
+.ques-box:hover
+{
+    background-color: black;
+    border: solid;
+    border-color: #ED2B2A;
+}
+
+.ques-head
+{
+    color: white;
+    font-weight: 1000;
+    font-size: 3rem;
+    margin: 0px;
+}
+
+
+.ques-para
+{
+    color: white;
+    font-family: 'Alkatra', cursive;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    
+}
+
+
+.div-head
+{
+    width: 60%;
+}
+
+.content
+{
+    padding: 150px 50px 30px 50px;
+    text-align: left;
+}
+
+.ques-tag
+{
+    color: #FF6D60;
+}
+
+.ans
+{
+    padding: 10px 0px 10px 45px;
+    font-size: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.link-box
+{
+    text-align: center;
+    margin: 100px;
+}
+
+.links-head
+{
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+.link
+{
+    background-color: #ED2B2A;
+    border-radius: 30px;
+    margin: 4rem 32rem;
+}
+
+.link:hover
+{
+    background-color: black;
+    border: solid;
+    border-color: #ED2B2A;
+}
+
+.link-text
+{
+    color: white;
+    padding: 15px;
+    font-weight: 700;
+}
+
+.link-load-more
+{
+    background-color: #ED2B2A;
+    border-radius: 30px;
+    margin: 4rem 52rem;
+    margin-top: 100px;
+}
+
+.link-load-more:hover
+{
+    background-color: black;
+    border: solid;
+    border-color: #ED2B2A;
+}
+
+
+.foot
+{
+    background-color: #ED2B2A;
+    text-align: center;
+}
